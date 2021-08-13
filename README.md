@@ -3,8 +3,11 @@
 ## 概要
 
 - nginxに流量制限を設定し検証
-  - 1.html: 10req/s: response-code: 429
-  - 2.html: 30req/s: response-code: 503
+
+|Path|流量制限|HTTPステータス|
+|--|--|--|
+|1.html|10req/s|429|
+|2.html|30req/s|503|
 
 ## 環境構築
 
